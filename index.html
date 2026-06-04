@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main class="container-fluid text-center">
+      <section>
+        <form id="formulario" class="mb-4">
+          <h2>Fromulario Para Agregar Personaje Nuevo</h2>
+          
+          Nombre del Personaje:
+          <input type="text" id="nombre" class="form-control" /> 
+
+          URL de la Imagen del Personaje:
+          <input type="url" id="imagen" class="form-control" /><br /><br />
+
+          <button type="submit" class="btn bg-primary text-white" id="agregar">Agregar Pesonaje</button
+          ><br /><br />
+        </form>
+      </section><br><br>
+      
+      Buscar Pesonaje: <input type="text" id="buscar" />
+      <button type="button" id="botonBuscar" class="btn btn-secondary mt-2">
+        Buscar
+      </button>
+      <br /><br />
+
+      <h1 class="text-center my-4">Personajes</h1>
+      <div class="row" id="tarjetaPersonaje"></div>
+    </main>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

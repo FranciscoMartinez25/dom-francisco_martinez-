@@ -1,0 +1,27 @@
+body{
+    background-color: #e6f0ff;
+
+}
+
+section{
+    font-size: 20px;
+    background-color: beige;
+    border: solid red;
+    border-radius: 25px;
+    box-shadow: 2px 5px 5px 2px orange;
+}
+
+button:hover{
+    font-weight: bold;
+}
+.card{
+    background-color: grey;
+    color:white;
+    border: solid black;
+}
+
+.card:hover{
+    box-shadow: 10px 20px 20px 10px rgb(122, 119, 119);
+    font-weight:bold;
+    
+}
